@@ -1,0 +1,17 @@
+spring:
+  datasource:
+      url: jdbc:mysql://122.51.233.54:3306/blog
+      username: root
+      password: 1215xia
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+      name: blog
+
+
+mybatis-plus:
+    configuration:
+      map-underscore-to-camel-case: true
+    type-aliases-package: com.xia.blog.entity
+
+server:
+    port: 8080
